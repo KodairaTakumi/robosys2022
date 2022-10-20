@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# SPOX-FileCopyrightText : 2022 Kodaira Takumi
 import sys
 
 ans = 0
@@ -10,4 +11,4 @@ for line in sys.stdin:
 
 print(ans)
 
-©2022小平拓海
+
