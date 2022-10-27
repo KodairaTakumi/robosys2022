@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 print("memeo")
 
-add > commit > push
+add >status> commit > push
 
 stash    pull
 
