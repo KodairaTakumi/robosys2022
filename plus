@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# SPOX-FileCopyrightText : 2022 Kodaira Takumi
+# SPDX-FileCopyrightText : 2022 Kodaira Takumi
 import sys
 
 ans = 0
