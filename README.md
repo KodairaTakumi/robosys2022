@@ -1,4 +1,13 @@
-# robosys2022
+# plusコマンド
+![test](https://github.com/kodairatakumi/robosys2022/actions/workflows/test.yml/badge.svg)
+標準入力から読み込んだ数字を足す。
+## 必要なソフトウェア
+* python3
+  *テスト済み:　3.7～3.10
+## テスト環境
+* Ubuntu
+
+##
 ロボットシステム学リポジトリ
  * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
  * © 2022 Kodaira Takumi
