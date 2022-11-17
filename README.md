@@ -2,10 +2,17 @@
 未来ロボティクス学科　ロボットシステム学学習用リポジトリ
 # plusコマンド
 ![test](https://github.com/kodairatakumi/robosys2022/actions/workflows/test.yml/badge.svg)
+
 標準入力から読み込んだ数字を足す。
+  
 ## 必要なソフトウェア
 * python3
   *テスト済み:　3.7～3.10
+##利用方法
+* ダウンロード
+　　* git clone https://github.com/KodairaTakumi/robosys2022.git
+* 実行
+　　* ./plus
 ## テスト環境
 * Ubuntu
 
