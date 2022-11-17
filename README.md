@@ -1,3 +1,5 @@
+#robosis2022
+未来ロボティクス学科　ロボットシステム学学習用リポジトリ
 # plusコマンド
 ![test](https://github.com/kodairatakumi/robosys2022/actions/workflows/test.yml/badge.svg)
 標準入力から読み込んだ数字を足す。
