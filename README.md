@@ -18,9 +18,13 @@ $ seq 0 0.3 5 | ./plus
   *テスト済み:　3.7～3.10
 ## 利用方法
 * ダウンロード
-      git clone https://github.com/KodairaTakumi/robosys2022.git  
+```
+git clone https://github.com/KodairaTakumi/robosys2022.git
+```
 * 実行
-      './plus'
+```
+./plus
+```
 ## テスト環境
 * Ubuntu 22.04
 
