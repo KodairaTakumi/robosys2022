@@ -4,10 +4,13 @@ ng(){
 	ret=1
 }
 ret=0
-out=$(seq 5 | ./plus)
+out=$(seq 3 | ./plus)
 
-[ "${out}" = 15 ] || ng "&LINENO"
+[ "${out}" = 6 ] || ng "&LINENO"
 
+out=$(seq 0 0.3 2 | ./plus)
+
+[ "${out}" = 6.3 ] || ng "&LINENO"
 
 
 [ "$ret" = 0 ] && echo OK

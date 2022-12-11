@@ -5,15 +5,14 @@
 import sys
 
 ans = 0
+st = 0
 
 for line in sys.stdin:
     try:
-        print("+" + str(line),end="")
         ans += int(line)
     except:
-        print("+" + str(line),end="")
         ans += float(line)
 
-print("=" + str(ans))
+print(str(ans))
 
 
