@@ -3,27 +3,14 @@
 
 # 実行
 	標準入力された数字を加算して標準出力する
-$ seq 5 | ./plus
-+1
-+2
-+3
-+4
-+5
-=15
-$ seq 0 0.3 1 | ./plus
-+0.0
-+0.0
-+0.3
-+0.3
-+0.6
-+0.6
-+0.9
-+0.9
-=1.7999999999999998
 ![test](https://github.com/kodairatakumi/robosys2022/actions/workflows/test.yml/badge.svg)
+$ seq 5|./plus
+15
+$ seq 0 0.3 5 | ./plus
+40.8
 
 ## 特徴
-* 加算の式も出力する 
+* 小数点の有無を自動で切り替える 
 ## 必要なソフトウェア
 * python3
   *テスト済み:　3.7～3.10
