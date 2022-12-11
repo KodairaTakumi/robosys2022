@@ -4,10 +4,12 @@
 # 実行
 	標準入力された数字を加算して標準出力する
 ![test](https://github.com/kodairatakumi/robosys2022/actions/workflows/test.yml/badge.svg)
-$ seq 5|./plus\n
-15\n
+```
+$ seq 5|./plus
+15
 $ seq 0 0.3 5 | ./plus
 40.8
+```
 
 ## 特徴
 * 小数点の有無を自動で切り替える 
