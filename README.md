@@ -3,10 +3,27 @@
 
 # 実行
 	標準入力された数字を加算して標準出力する
+$ seq 5 | ./plus
++1
++2
++3
++4
++5
+=15
+$ seq 0 0.3 1 | ./plus
++0.0
++0.0
++0.3
++0.3
++0.6
++0.6
++0.9
++0.9
+=1.7999999999999998
 ![test](https://github.com/kodairatakumi/robosys2022/actions/workflows/test.yml/badge.svg)
 
-標準入力から読み込んだ数字を足す。
-  
+## 特徴
+* 加算の式も出力する 
 ## 必要なソフトウェア
 * python3
   *テスト済み:　3.7～3.10
@@ -14,18 +31,17 @@
 * ダウンロード
       git clone https://github.com/KodairaTakumi/robosys2022.git  
 * 実行
-      ./plus
+      './plus'
 ## テスト環境
-* Ubuntu
+* Ubuntu 22.04
 
-##
-ロボットシステム学リポジトリ
+## ライセンス
  * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
  * © 2022 Kodaira Takumi
 
 Dライセンスの下，再頒布および使用が許可されます．
   * このパッケージは，ryuichiueda/emcl由来のコード（© 2022 Ryuuichi Ueda）を利用しています．
   * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
-      * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
-* © 2022 Ryuichi Ueda
+  * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+  * © 2022 Ryuichi Ueda
  
