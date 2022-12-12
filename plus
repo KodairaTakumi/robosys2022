@@ -13,6 +13,6 @@ for line in sys.stdin:
     except:
         ans += float(line)
 
-print(str(ans))
+print(ans)
 
 
